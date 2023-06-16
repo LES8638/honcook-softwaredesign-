@@ -55,15 +55,17 @@
                     android:layout_width="350dp"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
+                    android:hint="search"
                     android:layout_toLeftOf="@id/search_button"></EditText>
 
                 <ImageButton
                     android:id="@+id/search_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
+                    android:contentDescription="search"
                     app:srcCompat="@drawable/search_resize" />
 
             </RelativeLayout>

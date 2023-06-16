@@ -37,6 +37,18 @@
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:hint="E-mail" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="닉네임" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="name" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,15 +61,7 @@
             android:layout_height="50dp"
             android:hint="Password"
             android:inputType="textPassword"/>
-        <Button
-            android:id="@+id/loginbutton"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:text="로그인"
-            android:textSize="20dp" />
+
         <Button
             android:id="@+id/registerbutton"
             android:layout_width="250dp"
