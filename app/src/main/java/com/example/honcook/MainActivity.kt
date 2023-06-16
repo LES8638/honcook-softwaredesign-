@@ -13,6 +13,7 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.Update
 import com.example.honcook.databinding.ActivityMainBinding
 import com.example.honcook.databinding.MainpageBinding
 import com.example.honcook.databinding.RegisterpageBinding
@@ -56,6 +57,8 @@ interface RecipeDao{
     fun getMyRecipes(id:Int):List<RecipeEntity>
     @Insert
     fun insertRecipe(recipe_entity:RecipeEntity)
+    @Update
+    fun updateRecipe(recipe_entity: RecipeEntity)
     @Delete
     fun deleteRecipe(recipe_entity: RecipeEntity)
 }
